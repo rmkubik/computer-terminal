@@ -131,10 +131,28 @@ const App = () => {
             typed={false}
             postTypingDelay={200}
           />
+          <Line text="|\-._/\_.-/|" typed={false} />
           <Line
-            text="Hello, operator. Welcome to Defense OS."
+            text="|&nbsp;&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;&nbsp;|"
             typed={false}
-            postTypingDelay={600}
+          />
+          <Line text="|___o()o___|" typed={false} />
+          <Line text="|__((<>))__|" typed={false} />
+          <Line text="\&nbsp;&nbsp;&nbsp;o\\/o&nbsp;&nbsp;/" typed={false} />
+          <Line
+            text="&nbsp;\&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;/ "
+            typed={false}
+          />
+          <Line
+            text="&nbsp;&nbsp;\&nbsp;&nbsp;||&nbsp;&nbsp;/  "
+            typed={false}
+          />
+          <Line text="&nbsp;&nbsp;&nbsp;'.||.'   " typed={false} />
+          <Line text="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;''     " typed={false} />
+          <Line
+            text="Hello, operator. Welcome to Shield OS."
+            typed={false}
+            postTypingDelay={1600}
           />
           <Line
             text="Activating defense systems..."
