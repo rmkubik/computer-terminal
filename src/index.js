@@ -132,6 +132,11 @@ const App = () => {
             postTypingDelay={200}
           />
           <Line
+            text="Hello, operator. Welcome to Defense OS."
+            typed={false}
+            postTypingDelay={600}
+          />
+          <Line
             text="Activating defense systems..."
             typed={false}
             postTypingDelay={400}
