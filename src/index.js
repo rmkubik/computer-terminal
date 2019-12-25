@@ -119,7 +119,7 @@ const App = () => {
         <Sequence parentRef={parentRef}>
           <Line text="Awaiting operator input..." typed={false} />
           <Line
-            text="$ <span class='command'>computer</span> ^200 power ^500 <span class='success'>on</span>"
+            text="$ <span class='command'>shield</span> ^200 power ^500 <span class='success'>on</span>"
             typed={true}
             postTypingDelay={1000}
           />
@@ -131,6 +131,7 @@ const App = () => {
             typed={false}
             postTypingDelay={200}
           />
+          <Line text="&nbsp;" typed={false} />
           <Line text="|\-._/\_.-/|" typed={false} />
           <Line
             text="|&nbsp;&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;&nbsp;|"
@@ -149,10 +150,12 @@ const App = () => {
           />
           <Line text="&nbsp;&nbsp;&nbsp;'.||.'   " typed={false} />
           <Line text="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;''     " typed={false} />
+          <Line text="Hello, operator. Welcome to Shield OS." typed={false} />
+          <Line text="&nbsp;" typed={false} />
           <Line
-            text="Hello, operator. Welcome to Shield OS."
-            typed={false}
-            postTypingDelay={1600}
+            text="$ ^2000 <span class='command'>shield</span> ^200 fortify <span class='warn'>perimeter</span>"
+            typed={true}
+            postTypingDelay={1000}
           />
           <Line
             text="Activating defense systems..."
@@ -180,6 +183,7 @@ const App = () => {
             text="<span class='error'>AREA UNSECURE - Southern perimeter undefended</span>"
             typed={false}
           />
+          <Line text="&nbsp;" typed={false} />
           <Line text="Running diagnostic..." typed={false} />
           <Line text="[^200.^200.^600.^600.^600.^1600.]" typed={true} />
           <Line
@@ -195,6 +199,7 @@ const App = () => {
             typed={false}
             postTypingDelay={1000}
           />
+          <Line text="&nbsp;" typed={false} />
           <Line text="Starting quarantine procedure..." typed={false} />
           <Line text="[^200.^200.^200.^200.^200.^200.]" typed={true} />
           <Line
@@ -216,12 +221,14 @@ const App = () => {
             typed={false}
             postTypingDelay={800}
           />
+          <Line text="&nbsp;" typed={false} />
           <Line text="Scanning for lifeforms..." typed={false} />
           <Line text="[^200.^200.^200.^200.^200.^200.]" typed={true} />
           <Line
-            text="<span class='warn'>WARN: Lifeform detected in computer room</span>"
+            text="<span class='warn'>WARNING: Lifeform detected in computer room</span>"
             typed={false}
           />
+          <Line text="&nbsp;" typed={false} />
           <Line
             text="Redirecting nerve agent distribution system..."
             typed={false}
@@ -271,6 +278,7 @@ const App = () => {
             typed={false}
             postTypingDelay={1000}
           />
+          <Line text="&nbsp;" typed={false} />
           <Line text="Scanning for lifeforms..." typed={false} />
           <Line text="[^200.^200.^200.^200.^1000.^2000.]" typed={true} />
           <Line
@@ -278,6 +286,7 @@ const App = () => {
             typed={false}
             postTypingDelay={2000}
           />
+          <Line text="&nbsp;" typed={false} />
           <Line
             text="<span class='success'>SUCCESS: Quarantine procedure - COMPLETED</span>"
             typed={false}
