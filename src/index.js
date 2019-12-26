@@ -7,7 +7,8 @@ const Sequence = ({ children, parentRef }) => {
   const [currentLine, setCurrentLine] = React.useState(0);
   const finished = () => {
     setCurrentLine(currentLine + 1);
-    parentRef.current.scrollTop = parentRef.current.scrollHeight;
+    // parentRef.current.scrollTop = parentRef.current.scrollHeight;
+    document.body.scrollTop = document.body.scrollHeight;
   };
 
   const lines = children.slice(0, currentLine + 1);
